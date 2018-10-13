@@ -7,7 +7,7 @@ import java.util.Date;
 
 public class ProblemEight {
     public ProblemEight(){
-        File name = new File("D:\\Akash's Stuff\\Computer Science\\Data Structures\\FirstProject\\src\\PrEight");
+        File name = new File("D:\\Akash's Stuff\\Computer Science\\Data Structures\\Data-Structures-Tasks\\FirstProject\\src\\PrEight");
         try{
             BufferedReader input = new BufferedReader(new FileReader(name));
             String text="";

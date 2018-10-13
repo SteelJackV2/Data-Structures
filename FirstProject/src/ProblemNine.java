@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class ProblemNine {
     public ProblemNine(){
-        File name = new File("D:\\Akash's Stuff\\Computer Science\\Data Structures\\FirstProject\\src\\PrNine");
+        File name = new File("D:\\Akash's Stuff\\Computer Science\\Data Structures\\Data-Structures-Tasks\\FirstProject\\src\\PrNine");
         try{
             BufferedReader input = new BufferedReader(new FileReader(name));
             String text="";
@@ -44,7 +44,9 @@ public class ProblemNine {
                     a+=2;
                     b+=2;
                 }
-
+                if(number == 2){
+                    pattern[1][0] = "-";
+                }
                 for (int x = 0; x<number; x++){
                     for(int y = 0; y<number; y++){
                         System.out.print(pattern[x][y] +" ");
